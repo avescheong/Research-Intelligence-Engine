@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SemanticValidationVerdict",
+  "description": "Schema for structured diagnostic verdict emitted by semantic_validation_engine.py",
+  "type": "object",
+  "required": [
+    "overall_semantic_status",
+    "passed_gate_count",
+    "total_gate_count",
+    "gate_details"
+  ],
+  "properties": {
+    "overall_semantic_status": { "type": "string", "enum": ["PASS", "FAIL"] },
+    "passed_gate_count": { "type": "integer", "minimum": 0, "maximum": 11 },
+    "total_gate_count": { "type": "integer", "enum": [11] },
+    "gate_details": {
+      "type": "object",
+      "required": [
+        "GATE_SEM_EO_01",
+        "GATE_SEM_EO_02",
+        "GATE_SEM_EO_03",
+        "GATE_SEM_EO_04",
+        "GATE_SEM_IO_01",
+        "GATE_SEM_IO_02",
+        "GATE_SEM_IO_03",
+        "GATE_SEM_IO_04",
+        "GATE_SEM_KO_01",
+        "GATE_SEM_KO_02",
+        "GATE_SEM_KO_03"
+      ],
+      "additionalProperties": {
+        "type": "object",
+        "required": ["passed", "message"],
+        "properties": {
+          "passed": { "type": "boolean" },
+          "message": { "type": "string" }
+        }
+      }
+    }
+  }
+}

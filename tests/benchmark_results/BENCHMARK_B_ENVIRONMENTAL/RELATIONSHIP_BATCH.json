@@ -1,0 +1,16 @@
+[
+  {
+    "Lookup_Key": "KO-ENV-SEDIMENT-RUNOFF-ACCUMULATION-NV-001-001_KO-ENV-SOIL-ERODIBILITY-CLASSIFICATION-NV-001-002",
+    "Relationship_ID": "REL-ENV-SEDIMENT-SOIL-001",
+    "From_KO": "KO-ENV-SEDIMENT-RUNOFF-ACCUMULATION-NV-001-001",
+    "To_KO": "KO-ENV-SOIL-ERODIBILITY-CLASSIFICATION-NV-001-002",
+    "Relationship_Description": "Empirical dynamics modeled in KO-ENV-SEDIMENT-RUNOFF-ACCUMULATION-NV-001-001 directly constrain operational parameters, thereby governing downstream functional response and feedback behavior in KO-ENV-SOIL-ERODIBILITY-CLASSIFICATION-NV-001-002.",
+    "Relationship_Type": "Causal",
+    "Confidence": 0.81,
+    "Human_Approval": "Pending Review",
+    "Cluster_ID": "CLUSTER_HYDROLOGICAL_RUNOFF",
+    "Status": "CANDIDATE",
+    "Notes": "Dialectical edge synthesized under transaction TX-BENCHMARK-ENV-001 across domain 'environmental_engineering'.",
+    "Transaction_ID": "TX-BENCHMARK-ENV-001"
+  }
+]

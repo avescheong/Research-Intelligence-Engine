@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://rie.internal/schemas/v1/kg_provenance_attachment.schema.json",
+  "title": "RIE Knowledge Graph Provenance Attachment Contract",
+  "description": "Formal contract governing cryptographic provenance attachments for relational edges and nodes.",
+  "type": "object",
+  "required": [
+    "provenance_source",
+    "evidence_reference",
+    "sha256_hash",
+    "creation_authority",
+    "approval_reference"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "provenance_source": {
+      "type": "string",
+      "description": "Canonical path or URI to the source evidence file.",
+      "minLength": 1
+    },
+    "evidence_reference": {
+      "type": "string",
+      "description": "Specific line, section, page, or table offset within the source container.",
+      "minLength": 1
+    },
+    "sha256_hash": {
+      "type": "string",
+      "description": "Exact 64-character hexadecimal SHA-256 digest of the physical source file.",
+      "pattern": "^[a-fA-F0-9]{64}$"
+    },
+    "confidence_score": {
+      "type": "number",
+      "description": "Epistemic confidence rating of the evidentiary attachment.",
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "creation_authority": {
+      "type": "string",
+      "description": "Designated authority level or steward responsible for generating the record.",
+      "minLength": 1
+    },
+    "approval_reference": {
+      "type": "string",
+      "description": "Formal governance decision reference authorizing creation (e.g., DEC-080-KG-CORE).",
+      "minLength": 1
+    },
+    "timestamp": {
+      "type": "string",
+      "description": "ISO 8601 creation or verification timestamp."
+    }
+  }
+}

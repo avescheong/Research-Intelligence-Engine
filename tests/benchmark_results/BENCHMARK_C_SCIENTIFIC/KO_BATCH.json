@@ -1,0 +1,32 @@
+[
+  {
+    "KO_ID": "KO-SCI-EXPERIMENTAL-TREATMENT-EFFECT-CI-001-001",
+    "Concept_Title": "Empirical Treatment Variance and Observational Covariate Calibration",
+    "Domain": "Empirical Scientific Research / Experimental Methodology",
+    "Origin_Source": "SRC-SCI-ARTICLE-001",
+    "Supporting_EO": "EO-LeadResearcher-SENSOR-CALIBRATION-VARIANCE-000000-001, EO-LeadResearcher-CALIBRATION-ERROR-MEASUREMENT-000035-003",
+    "Supporting_IO": "IO-TX-BENCHMARK-SCI-001-001",
+    "Confidence": 0.78,
+    "Status": "CANDIDATE",
+    "Human_Approval_State": "PENDING_LEVEL_5_REVIEW",
+    "Knowledge_Status": "CANDIDATE",
+    "Human_Review_Status": "PENDING",
+    "Canonical_Status": "NOT_APPROVED",
+    "Transaction_ID": "TX-BENCHMARK-SCI-001"
+  },
+  {
+    "KO_ID": "KO-SCI-INSTRUMENTATION-MEASUREMENT-NOISE-CI-001-002",
+    "Concept_Title": "Systematic Measurement Error and Observational Verification Thresholds",
+    "Domain": "Empirical Scientific Research / Experimental Methodology",
+    "Origin_Source": "SRC-SCI-ARTICLE-001",
+    "Supporting_EO": "EO-LeadResearcher-MEASUREMENT-STATISTICAL-SENSOR-000017-002, EO-LeadResearcher-EMPIRICAL-VARIANCE-ERROR-000052-004",
+    "Supporting_IO": "IO-TX-BENCHMARK-SCI-001-002",
+    "Confidence": 0.68,
+    "Status": "CANDIDATE",
+    "Human_Approval_State": "PENDING_LEVEL_5_REVIEW",
+    "Knowledge_Status": "CANDIDATE",
+    "Human_Review_Status": "PENDING",
+    "Canonical_Status": "NOT_APPROVED",
+    "Transaction_ID": "TX-BENCHMARK-SCI-001"
+  }
+]

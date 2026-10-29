@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# User Knowledge Substrate (Protects private research & notes)
+workspace/RIE_COMMAND_CENTER.xlsx
+workspace/rie_substrate.db
+workspace/inbox/*
+!workspace/inbox/README.md
+workspace/obsidian_vault/*
+!workspace/obsidian_vault/README.md
+workspace/transactions/*
+!workspace/transactions/README.md
+workspace/*.json
+workspace/*.xlsx
+workspace/*.db
+
+# Private Drop-In Domain Modules
+modules/private_*/
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/

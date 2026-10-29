@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://rie.internal/schemas/v1/kg_entity_node.schema.json",
+  "title": "RIE Knowledge Graph Entity Node Contract",
+  "description": "Formal contract defining the structure and validation constraints of an Entity Node in the RIE Knowledge Graph.",
+  "type": "object",
+  "required": [
+    "id",
+    "entity_type",
+    "title",
+    "confidence_score",
+    "status"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier of the entity node.",
+      "pattern": "^[A-Za-z0-9_\\-\\s\\.]+$"
+    },
+    "entity_type": {
+      "type": "string",
+      "description": "Classification of the entity node within the RIE domain model.",
+      "enum": [
+        "STATION",
+        "CONCEPT",
+        "PROCESS",
+        "RULE",
+        "DOCUMENT",
+        "FRAMEWORK",
+        "SITE",
+        "OBSERVATION_NODE"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "description": "Human-readable label or designation of the entity."
+    },
+    "confidence_score": {
+      "type": "number",
+      "description": "Deterministic epistemic confidence score between 0.0 and 1.0.",
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "status": {
+      "type": "string",
+      "description": "Operational lifecycle state of the node.",
+      "enum": [
+        "DRAFT_SEED",
+        "SANDBOX_CANDIDATE",
+        "CANONICAL_ACTIVE",
+        "QUARANTINED",
+        "FROZEN_ARCHIVE"
+      ]
+    },
+    "provenance_ref": {
+      "type": "string",
+      "description": "Reference to the governing lineage or source container."
+    },
+    "attributes": {
+      "type": "object",
+      "description": "Domain-specific attributes and structured parameters."
+    }
+  }
+}

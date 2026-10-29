@@ -1,0 +1,11 @@
+{
+  "source_id": "SRC-SCI-ARTICLE-SENSOR-001",
+  "source_title": "Semiconductor Sensor Calibration Variance & Dielectric Relaxation Under Thermal Stress",
+  "speaker_author": "Lead Metrology Researcher",
+  "organization_channel": "Journal of Applied Physics & Sensor Research",
+  "source_topic": "SensorCalibrationVariance",
+  "rie_domain": "scientific_research",
+  "source_type": "Scientific Research Article",
+  "date_published": "2026-09-28",
+  "transcript_text": "Controlled laboratory experiments were conducted to evaluate semiconductor sensor calibration variance under thermal stress. Baseline temperature sweeps demonstrated that ambient sensor drift correlated directly with junction power dissipation during continuous operation. High precision measurement protocols recorded statistical divergence across uncompensated sensor detector channels exceeding five percent. Conversely, automated temperature compensation feedback circuits effectively suppressed thermal drift and stabilized telemetry output. Independent experimental replications confirmed that physical dielectric relaxation induces measurable phase noise across high frequency trials. Calibration error analysis indicated that systematic measurement bias can be mitigated through multi-station reference detector cross-validation. Empirical state manipulation produced statistically significant response curves validating the primary physical transport model. The observed covariate variance remained fully bounded within theoretical experimental error distributions throughout the ninety minute trial."
+}

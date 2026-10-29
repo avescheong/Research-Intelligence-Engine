@@ -1,0 +1,1060 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "taxonomy_name": "RIE_SOVEREIGN_DOMAIN_TAXONOMY",
+  "description": "Externalized domain ontology registry for RIE v1.4.0 Semantic Certified architecture. Provides domain-neutral parameterization, eliminating hardcoded domain logic from engine code.",
+  "default_domain": "macroeconomics",
+  "domains": {
+    "macroeconomics": {
+      "domain_id": "macroeconomics",
+      "domain_code": "MACRO",
+      "display_name": "Macro Economics / Sovereign Liquidity Architecture",
+      "description": "Sovereign debt issuance, central bank liquidity, Treasury yield curves, currency clearing, and intermarket capital allocation.",
+      "entity_keywords": [
+        "yield",
+        "yields",
+        "treasury",
+        "treasuries",
+        "debt",
+        "deficit",
+        "bond",
+        "bonds",
+        "liquidity",
+        "collateral",
+        "inflation",
+        "currency",
+        "dollar",
+        "gold",
+        "silver",
+        "rates",
+        "fed",
+        "repo",
+        "spread",
+        "spreads",
+        "refinancing",
+        "issuance",
+        "reserves",
+        "interest",
+        "banking",
+        "auction",
+        "balance",
+        "dealer",
+        "dealers",
+        "monetary",
+        "fiscal"
+      ],
+      "polarity_vectors": {
+        "positive": [
+          "rose",
+          "increased",
+          "widened",
+          "accelerated",
+          "surpassed",
+          "accumulated",
+          "expanded",
+          "spiked",
+          "steepened",
+          "issued",
+          "elevated",
+          "surged"
+        ],
+        "negative": [
+          "fell",
+          "decreased",
+          "contracted",
+          "slowed",
+          "drained",
+          "dropped",
+          "suppressed",
+          "decayed",
+          "flattened",
+          "depleted",
+          "declined"
+        ]
+      },
+      "research_question_templates": [
+        "How does the observed structural shift in {entities} transmit across institutional settlement balance sheets?",
+        "Under what conditions does empirical variation in {entities} force collateral re-allocation versus localized absorption?",
+        "Does the persistence of {entities} signal a structural monetary regime transition or an ephemeral liquidity bottleneck?",
+        "What transmission velocity governs the pass-through of {entities} into broader secondary market pricing spreads?",
+        "To what extent do institutional balance sheet constraints amplify the observed {entities} dynamic?",
+        "How do sovereign refinancing pressures in {entities} interact with private market auction absorption capacity?",
+        "What systemic risks arise when persistent volatility in {entities} exceeds historical duration tolerance bands?",
+        "Does central bank intervention across {entities} alter real asset inflation pass-through dynamics?"
+      ],
+      "causal_h1_templates": [
+        "Primary Model (H1): Sovereign debt issuance expansion across {entities} (Root Trigger) forces primary dealers to absorb collateral onto constrained balance sheets (Transmission Mechanism), resulting in elevated clearing spreads and persistent liquidity withdrawal (Observable Outcome).",
+        "Primary Model (H1): Accelerating fiscal deficit projections in {entities} (Root Trigger) overwhelms private auction absorption capacity (Transmission Mechanism), driving systematic duration steepening and structural term premium re-pricing (Observable Outcome).",
+        "Primary Model (H1): Depletion of institutional reverse repo buffers linked to {entities} (Root Trigger) transfers overnight collateral financing burdens to private interbank funding markets (Transmission Mechanism), elevating benchmark money-market volatility (Observable Outcome).",
+        "Primary Model (H1): Sovereign reserve re-allocation away from fiat foreign currency holdings into {entities} (Root Trigger) prompts bilateral physical asset accumulation (Transmission Mechanism), decoupling monetary asset valuations from traditional real interest rates (Observable Outcome).",
+        "Primary Model (H1): Persistent cost-push pressures across {entities} (Root Trigger) constrain corporate profit margins and increase working capital financing requirements (Transmission Mechanism), accelerating corporate credit rating downgrades and private debt restructuring (Observable Outcome).",
+        "Primary Model (H1): Tightening regulatory capital requirements across {entities} (Root Trigger) disincentivizes repo intermediation among tier-one global banks (Transmission Mechanism), fragmenting benchmark funding markets and inducing basis trade divergence (Observable Outcome)."
+      ],
+      "dialectical_h2_templates": [
+        "Competing Model (H2): Counterparty reserve balances remain structurally insulated within central bank facilities, rendering the observed spread widening in {entities} an artifact of period-end regulatory reporting frictions rather than an unbacked collateral deficit.",
+        "Competing Model (H2): Sovereign issuance across {entities} is met with elastic foreign official and private institutional asset manager demand at critical technical yield thresholds, absorbing supply overhang without inducing broader contagion.",
+        "Competing Model (H2): Intermarket asset rotation in {entities} reflects short-term macro portfolio duration hedging and basis arbitrage rather than a secular abandonment of established reserve currency clearing frameworks.",
+        "Competing Model (H2): Central bank standing repo facility backstops provide an elastic liquidity relief valve, effectively truncating downside tail risks and anchoring overnight funding rates for {entities} within target bands.",
+        "Competing Model (H2): Private corporate cash reserves and equity issuance capacity buffer against short-term financing friction in {entities}, averting broader debt defaults despite elevated policy benchmark rates.",
+        "Competing Model (H2): Forward guidance communication and macroprudential forbearance alleviate dealer balance sheet constraints, stabilizing {entities} secondary market trading without direct monetary expansion."
+      ],
+      "concept_blueprints": [
+        {
+          "slug": "SOVEREIGN-DEBT-OVERHANG",
+          "title": "Sovereign Debt Issuance Dynamics and Primary Dealer Absorption Frictions",
+          "subtopic": "Sovereign Liquidity Architecture",
+          "cluster": "CLUSTER_SOVEREIGN_DEBT_SPIRAL"
+        },
+        {
+          "slug": "LIQUIDITY-BUFFER-DEPLETION",
+          "title": "Collateral Velocity Decoupling and Institutional Liquidity Drainage",
+          "subtopic": "Banking Structure and Reserves",
+          "cluster": "CLUSTER_MONETARY_TRANSMISSION"
+        },
+        {
+          "slug": "CROSS-ASSET-VALUATION-ROTATION",
+          "title": "Intermarket Capital Rotation and Real Asset Re-Anchoring Mechanics",
+          "subtopic": "Capital Allocation",
+          "cluster": "CLUSTER_CAPITAL_ALLOCATION"
+        }
+      ],
+      "future_research_template": "Monitor secondary liquidity auction absorption data, dealer inventory disclosures, and interbank spread volatility."
+    },
+    "environmental_engineering": {
+      "domain_id": "environmental_engineering",
+      "domain_code": "ENV",
+      "display_name": "Environmental Engineering / Sediment Control & Hydrology",
+      "description": "Erosion and sediment control (ESCP), silt trap retention, runoff hydrology, TSS monitoring, and soil conservation under MSMA.",
+      "entity_keywords": [
+        "sediment",
+        "erosion",
+        "runoff",
+        "discharge",
+        "turbidity",
+        "silt",
+        "basin",
+        "trap",
+        "catchment",
+        "hydrology",
+        "rainfall",
+        "slope",
+        "erodibility",
+        "effluent",
+        "buffer",
+        "water",
+        "drainage",
+        "monsoon",
+        "vegetation",
+        "geotextile",
+        "weir",
+        "excavation",
+        "tss",
+        "detention",
+        "stormwater",
+        "bund",
+        "checkdam",
+        "spillway",
+        "surcharge"
+      ],
+      "polarity_vectors": {
+        "positive": [
+          "exceeded",
+          "increased",
+          "accumulated",
+          "accelerated",
+          "overflowed",
+          "surpassed",
+          "surged",
+          "breached",
+          "elevated",
+          "eroded",
+          "scoured"
+        ],
+        "negative": [
+          "settled",
+          "retained",
+          "decreased",
+          "mitigated",
+          "attenuated",
+          "filtered",
+          "trapped",
+          "stabilized",
+          "reduced",
+          "damped",
+          "drained"
+        ]
+      },
+      "research_question_templates": [
+        "How does the observed hydrologic shift in {entities} transmit across downstream sediment retention basins?",
+        "Under what rainfall intensity conditions does empirical variation in {entities} exceed statutory sediment trapping capacity?",
+        "Does the measured increase in {entities} indicate structural slope destabilization or temporary surface scouring?",
+        "What hydraulic retention efficiency governs the attenuation of {entities} during peak monsoon discharge events?",
+        "To what extent do localized erosion control BMPs mitigate observed downstream {entities} levels?",
+        "How do catchment slope gradients amplify sediment yield and wash-off transport during prolonged downpours?",
+        "What maintenance dredging frequency is required to prevent sediment accumulation from choking retention volume?"
+      ],
+      "causal_h1_templates": [
+        "Primary Model (H1): Intense precipitation on exposed earthworks across {entities} (Root Trigger) dislodges fine silt fractions into primary drainage channels (Transmission Mechanism), resulting in statutory TSS exceedances and sediment basin surcharge (Observable Outcome).",
+        "Primary Model (H1): Saturated soil profiles on steep gradients tied to {entities} (Root Trigger) accelerate surface runoff velocity (Transmission Mechanism), driving rill scouring and sediment transport overload across downstream perimeter bunds (Observable Outcome).",
+        "Primary Model (H1): Hydraulic undersizing of temporary silt traps relative to catchment area (Root Trigger) short-circuits settling retention time for {entities} (Transmission Mechanism), allowing high-turbidity effluent to discharge into natural receiving waterways (Observable Outcome).",
+        "Primary Model (H1): Progressive accumulation of eroded bedload within internal culverts (Root Trigger) restricts hydrodynamic conveyance capacity (Transmission Mechanism), inducing backwater ponding and perimeter bund overtopping during heavy storms (Observable Outcome)."
+      ],
+      "dialectical_h2_templates": [
+        "Competing Model (H2): Measured turbidity spikes in {entities} reflect localized upstream riverbed scouring and natural organic decay rather than defective on-site perimeter silt mitigation.",
+        "Competing Model (H2): Sediment retention capacity remains compliant within engineering safety margins, with observed surface discoloration across {entities} attributable to suspended colloidal clays that settle without ecological degradation.",
+        "Competing Model (H2): Peak stormwater volume is effectively attenuated by tiered check-dams and intermediate vegetation buffers, preventing sediment transport from entering external receiving watercourses.",
+        "Competing Model (H2): Rapid gravitational settling of coarse soil fractions within the inlet forebay effectively mitigates downstream silt transport, preserving statutory discharge compliance at the final outfall."
+      ],
+      "concept_blueprints": [
+        {
+          "slug": "SEDIMENT-RUNOFF-ACCUMULATION",
+          "title": "Hydrodynamic Sediment Basin Sizing and Peak Monsoon Runoff Attenuation",
+          "subtopic": "Catchment Runoff and Retention",
+          "cluster": "CLUSTER_HYDROLOGICAL_RUNOFF"
+        },
+        {
+          "slug": "SOIL-ERODIBILITY-CLASSIFICATION",
+          "title": "Topographical Hill Slope Erodibility and BMP Surface Stabilization",
+          "subtopic": "Soil Conservation and Slope Stability",
+          "cluster": "CLUSTER_SURFACE_STABILIZATION"
+        },
+        {
+          "slug": "EFFLUENT-TURBIDITY-COMPLIANCE",
+          "title": "Statutory Silt Discharge Thresholds and Retention Weir Efficiency",
+          "subtopic": "Environmental Quality Act Compliance",
+          "cluster": "CLUSTER_EFFLUENT_COMPLIANCE"
+        }
+      ],
+      "future_research_template": "Conduct continuous multi-station turbidity logging, evaluate settling velocity curves, and verify sediment basin dredging records."
+    },
+    "drone_photogrammetry": {
+      "domain_id": "drone_photogrammetry",
+      "domain_code": "DRONE",
+      "display_name": "Aerial Photogrammetry / Unmanned Flight Operations",
+      "description": "CAAM CAD 6011 aerial mapping, flight telemetry, LiPo discharge, GSD resolution, and DEM surface reconstruction.",
+      "entity_keywords": [
+        "drone",
+        "uav",
+        "flight",
+        "telemetry",
+        "battery",
+        "voltage",
+        "photogrammetry",
+        "orthomosaic",
+        "gsd",
+        "dem",
+        "airspeed",
+        "waypoint",
+        "caam",
+        "altitude",
+        "payload",
+        "sensor",
+        "calibration",
+        "overlap",
+        "cad6011",
+        "discharge",
+        "rotor",
+        "wind",
+        "gnss",
+        "rtk",
+        "gcp",
+        "shutter",
+        "pitch",
+        "roll",
+        "yaw"
+      ],
+      "polarity_vectors": {
+        "positive": [
+          "increased",
+          "exceeded",
+          "ascended",
+          "accelerated",
+          "improved",
+          "amplified",
+          "peaked",
+          "elevated",
+          "boosted"
+        ],
+        "negative": [
+          "discharged",
+          "dropped",
+          "decreased",
+          "depleted",
+          "descended",
+          "degraded",
+          "diminished",
+          "sagged",
+          "attenuated"
+        ]
+      },
+      "research_question_templates": [
+        "How does empirical variation in {entities} affect multi-rotor endurance and critical safe return thresholds?",
+        "Under what atmospheric wind conditions does {entities} induce image motion blur and orthomosaic bundle adjustment errors?",
+        "Does the observed telemetry variance in {entities} indicate LiPo battery cell degradation or localized aeromechanical turbulence?"
+      ],
+      "causal_h1_templates": [
+        "Primary Model (H1): Strong headwinds and sustained high pitch angles (Root Trigger) accelerate internal LiPo battery cell impedance heating across {entities} (Transmission Mechanism), resulting in non-linear voltage sag and reduced mission flight margins (Observable Outcome).",
+        "Primary Model (H1): Rapid variation in sensor altitude and gimbal stabilization (Root Trigger) degrades keypoint feature matching across overlapping frames (Transmission Mechanism), producing tie-point reconstruction artifacts in dense point cloud generation (Observable Outcome)."
+      ],
+      "dialectical_h2_templates": [
+        "Competing Model (H2): Telemetry voltage fluctuations in {entities} reflect momentary motor throttle bursts during gust compensation rather than permanent battery electrochemical capacity loss.",
+        "Competing Model (H2): Ground control point (GCP) spatial distribution and RTK carrier-phase correction maintain sub-centimeter georeferencing accuracy regardless of localized airspeed turbulence."
+      ],
+      "concept_blueprints": [
+        {
+          "slug": "FLIGHT-TELEMETRY-DISCHARGE",
+          "title": "Battery Voltage Discharge Dynamics and Critical Safe Return Margins",
+          "subtopic": "Flight Operations Safety",
+          "cluster": "CLUSTER_FLIGHT_SAFETY"
+        },
+        {
+          "slug": "ORTHOMOSAIC-GSD-RECONSTRUCTION",
+          "title": "Aerial Photogrammetric Resolution and Tie-Point Bundle Adjustment",
+          "subtopic": "Sensor Mapping Accuracy",
+          "cluster": "CLUSTER_PHOTOGRAMMETRIC_ACCURACY"
+        }
+      ],
+      "future_research_template": "Analyze DJI Dataviewer CSV flight logs, evaluate individual LiPo cell internal resistance, and audit RTK fixed-rate epochs."
+    },
+    "scientific_research": {
+      "domain_id": "scientific_research",
+      "domain_code": "SCI",
+      "display_name": "Empirical Scientific Research / Experimental Methodology",
+      "description": "General empirical scientific investigation, hypothesis testing, measurement calibration, and experimental observations.",
+      "entity_keywords": [
+        "experiment",
+        "hypothesis",
+        "sample",
+        "measurement",
+        "variance",
+        "control",
+        "treatment",
+        "correlation",
+        "sensor",
+        "calibration",
+        "parameter",
+        "statistical",
+        "observation",
+        "protocol",
+        "replication",
+        "empirical",
+        "methodology",
+        "error",
+        "distribution",
+        "baseline",
+        "significance",
+        "regression",
+        "detector",
+        "trial"
+      ],
+      "polarity_vectors": {
+        "positive": [
+          "increased",
+          "correlated",
+          "amplified",
+          "accelerated",
+          "surpassed",
+          "scaled",
+          "expanded",
+          "elevated",
+          "confirmed"
+        ],
+        "negative": [
+          "decreased",
+          "attenuated",
+          "inhibited",
+          "decayed",
+          "suppressed",
+          "damped",
+          "reduced",
+          "falsified",
+          "neutralized"
+        ]
+      },
+      "research_question_templates": [
+        "How does experimental intervention across {entities} shift observed treatment outcome distributions?",
+        "Under what boundary conditions does empirical variation in {entities} deviate from established theoretical models?",
+        "Does the observed variance in {entities} represent a genuine physical treatment effect or systematic measurement calibration drift?",
+        "To what degree does observational instrument sensitivity constrain the reproducibility of {entities} findings?"
+      ],
+      "causal_h1_templates": [
+        "Primary Model (H1): Controlled parameter manipulation in {entities} (Root Trigger) alters fundamental state dynamics (Transmission Mechanism), producing statistically significant divergence in measurable response variables (Observable Outcome).",
+        "Primary Model (H1): Systematic exposure to environmental treatment stressors (Root Trigger) induces compensatory physical adaptation in {entities} (Transmission Mechanism), resulting in quantifiable changes in baseline telemetry (Observable Outcome)."
+      ],
+      "dialectical_h2_templates": [
+        "Competing Model (H2): Observed variations in {entities} are consistent with stochastic measurement noise and sampling error, exhibiting no statistically significant departure from the null hypothesis.",
+        "Competing Model (H2): Uncontrolled environmental confounders and instrument temperature drift account for the observed telemetry shift in {entities} rather than the asserted primary experimental mechanism."
+      ],
+      "concept_blueprints": [
+        {
+          "slug": "EXPERIMENTAL-TREATMENT-EFFECT",
+          "title": "Empirical Treatment Variance and Observational Covariate Calibration",
+          "subtopic": "Statistical Inference",
+          "cluster": "CLUSTER_EXPERIMENTAL_VARIANCE"
+        },
+        {
+          "slug": "INSTRUMENTATION-MEASUREMENT-NOISE",
+          "title": "Systematic Measurement Error and Observational Verification Thresholds",
+          "subtopic": "Metrology and Sensor Integrity",
+          "cluster": "CLUSTER_MEASUREMENT_CALIBRATION"
+        }
+      ],
+      "future_research_template": "Execute independent replication trials with expanded sample cohorts, dual-blind sensor calibration, and cross-instrument validation."
+    },
+    "macro_financial_analysis": {
+      "domain_id": "macro_financial_analysis",
+      "domain_code": "MACRO",
+      "display_name": "Macro / Financial Analysis & Sovereign Liquidity",
+      "description": "Sovereign debt issuance, central bank liquidity, Treasury yield curves, currency clearing, and intermarket capital allocation.",
+      "entity_keywords": [
+        "macro_financial_track_alias"
+      ],
+      "polarity_vectors": {
+        "positive": [
+          "rose",
+          "increased",
+          "widened",
+          "accelerated",
+          "surpassed",
+          "accumulated",
+          "expanded",
+          "spiked",
+          "steepened",
+          "issued",
+          "elevated",
+          "surged"
+        ],
+        "negative": [
+          "fell",
+          "decreased",
+          "contracted",
+          "slowed",
+          "drained",
+          "dropped",
+          "suppressed",
+          "decayed",
+          "flattened",
+          "depleted",
+          "declined"
+        ]
+      },
+      "research_question_templates": [
+        "How does the observed structural shift in {entities} transmit across institutional settlement balance sheets?",
+        "Under what conditions does empirical variation in {entities} force collateral re-allocation versus localized absorption?",
+        "Does the persistence of {entities} signal a structural monetary regime transition or an ephemeral liquidity bottleneck?",
+        "What transmission velocity governs the pass-through of {entities} into broader secondary market pricing spreads?",
+        "To what extent do institutional balance sheet constraints amplify the observed {entities} dynamic?",
+        "How do sovereign refinancing pressures in {entities} interact with private market auction absorption capacity?",
+        "What systemic risks arise when persistent volatility in {entities} exceeds historical duration tolerance bands?",
+        "Does central bank intervention across {entities} alter real asset inflation pass-through dynamics?"
+      ],
+      "causal_h1_templates": [
+        "Primary Model (H1): Sovereign debt issuance expansion across {entities} (Root Trigger) forces primary dealers to absorb collateral onto constrained balance sheets (Transmission Mechanism), resulting in elevated clearing spreads and persistent liquidity withdrawal (Observable Outcome).",
+        "Primary Model (H1): Accelerating fiscal deficit projections in {entities} (Root Trigger) overwhelms private auction absorption capacity (Transmission Mechanism), driving systematic duration steepening and structural term premium re-pricing (Observable Outcome).",
+        "Primary Model (H1): Depletion of institutional reverse repo buffers linked to {entities} (Root Trigger) transfers overnight collateral financing burdens to private interbank funding markets (Transmission Mechanism), elevating benchmark money-market volatility (Observable Outcome).",
+        "Primary Model (H1): Sovereign reserve re-allocation away from fiat foreign currency holdings into {entities} (Root Trigger) prompts bilateral physical asset accumulation (Transmission Mechanism), decoupling monetary asset valuations from traditional real interest rates (Observable Outcome).",
+        "Primary Model (H1): Persistent cost-push pressures across {entities} (Root Trigger) constrain corporate profit margins and increase working capital financing requirements (Transmission Mechanism), accelerating corporate credit rating downgrades and private debt restructuring (Observable Outcome).",
+        "Primary Model (H1): Tightening regulatory capital requirements across {entities} (Root Trigger) disincentivizes repo intermediation among tier-one global banks (Transmission Mechanism), fragmenting benchmark funding markets and inducing basis trade divergence (Observable Outcome)."
+      ],
+      "dialectical_h2_templates": [
+        "Competing Model (H2): Counterparty reserve balances remain structurally insulated within central bank facilities, rendering the observed spread widening in {entities} an artifact of period-end regulatory reporting frictions rather than an unbacked collateral deficit.",
+        "Competing Model (H2): Sovereign issuance across {entities} is met with elastic foreign official and private institutional asset manager demand at critical technical yield thresholds, absorbing supply overhang without inducing broader contagion.",
+        "Competing Model (H2): Intermarket asset rotation in {entities} reflects short-term macro portfolio duration hedging and basis arbitrage rather than a secular abandonment of established reserve currency clearing frameworks.",
+        "Competing Model (H2): Central bank standing repo facility backstops provide an elastic liquidity relief valve, effectively truncating downside tail risks and anchoring overnight funding rates for {entities} within target bands.",
+        "Competing Model (H2): Private corporate cash reserves and equity issuance capacity buffer against short-term financing friction in {entities}, averting broader debt defaults despite elevated policy benchmark rates.",
+        "Competing Model (H2): Forward guidance communication and macroprudential forbearance alleviate dealer balance sheet constraints, stabilizing {entities} secondary market trading without direct monetary expansion."
+      ],
+      "concept_blueprints": [
+        {
+          "slug": "SOVEREIGN-DEBT-OVERHANG",
+          "title": "Sovereign Debt Issuance Dynamics and Primary Dealer Absorption Frictions",
+          "subtopic": "Sovereign Liquidity Architecture",
+          "cluster": "CLUSTER_SOVEREIGN_DEBT_SPIRAL"
+        },
+        {
+          "slug": "LIQUIDITY-BUFFER-DEPLETION",
+          "title": "Collateral Velocity Decoupling and Institutional Liquidity Drainage",
+          "subtopic": "Banking Structure and Reserves",
+          "cluster": "CLUSTER_MONETARY_TRANSMISSION"
+        },
+        {
+          "slug": "CROSS-ASSET-VALUATION-ROTATION",
+          "title": "Intermarket Capital Rotation and Real Asset Re-Anchoring Mechanics",
+          "subtopic": "Capital Allocation",
+          "cluster": "CLUSTER_CAPITAL_ALLOCATION"
+        }
+      ],
+      "future_research_template": "Monitor secondary liquidity auction absorption data, dealer inventory disclosures, and interbank spread volatility."
+    },
+    "equity_research": {
+      "domain_id": "equity_research",
+      "domain_code": "EQRES",
+      "display_name": "Equity Research & Institutional Valuation",
+      "description": "Bursa Malaysia, HKEX, NYSE/NASDAQ equity research, DDM, WACC, Gravity Yield Spread (GYS), Net Carry Spread (NCS), and cash-flow bridge analysis.",
+      "entity_keywords": [
+        "bursa",
+        "hkex",
+        "dividend",
+        "valuation",
+        "wacc",
+        "ebitda",
+        "maybank",
+        "tenaga",
+        "cimb",
+        "shareholder",
+        "payout",
+        "earnings",
+        "capex",
+        "free_cash_flow",
+        "icpt",
+        "rab",
+        "gys",
+        "ncs"
+      ],
+      "polarity_vectors": {
+        "positive": [
+          "accretive",
+          "outperform",
+          "expansion",
+          "re-rating",
+          "surplus",
+          "undervalued"
+        ],
+        "negative": [
+          "dilutive",
+          "compression",
+          "impairment",
+          "headwind",
+          "default",
+          "overvalued"
+        ]
+      },
+      "research_question_templates": [
+        "How does empirical variation in {entities} alter free cash flow conversion and dividend sustainability across the valuation horizon?",
+        "Under what balance sheet conditions does {entities} drive Gravity Yield Spread (GYS) re-rating versus multiple compression?"
+      ],
+      "causal_h1_templates": [
+        "Primary Model (H1): Structural expansion in {entities} (Root Trigger) strengthens operating cash flow generation and net-debt coverage (Transmission Mechanism), supporting sustainable dividend yield compression and equity re-rating (Observable Outcome)."
+      ],
+      "dialectical_h2_templates": [
+        "Competing Model (H2): Elevated capital expenditure commitments and working capital absorption in {entities} constrain free cash flow conversion, neutralizing headline earnings growth."
+      ],
+      "concept_blueprints": [
+        {
+          "slug": "GRAVITY-YIELD-SPREAD-TRANSMISSION",
+          "title": "Gravity Yield Spread Dynamics and Cash Flow Bridge Sustainability",
+          "subtopic": "Institutional Equity Valuation",
+          "cluster": "CLUSTER_EQUITY_VALUATION"
+        },
+        {
+          "slug": "REGULATED-ASSET-BASE-CAPEX-CYCLE",
+          "title": "Regulated Asset Base Expansion and Earnings Quality Reconciliation",
+          "subtopic": "Capital Allocation & Payouts",
+          "cluster": "CLUSTER_EQUITY_CASHFLOW"
+        }
+      ]
+    },
+    "environmental_eia": {
+      "domain_id": "environmental_eia",
+      "domain_code": "EIA",
+      "display_name": "Environmental Impact Assessment & Regulatory Compliance",
+      "description": "Malaysian EQA 1974 (Act 127), First/Second Schedule prescribed activities, Terms of Reference (TOR), Guided Self-Regulation (GSR) 8 EMTs, and EESIM industrial buffer zones.",
+      "entity_keywords": [
+        "eqa",
+        "prescribed_activity",
+        "eesim",
+        "buffer_zone",
+        "emt",
+        "gsr",
+        "doe_approval",
+        "terms_of_reference",
+        "scheduled_waste",
+        "air_emission",
+        "noise_boundary",
+        "audit_ea0120"
+      ],
+      "polarity_vectors": {
+        "positive": [
+          "compliant",
+          "mitigated",
+          "buffered",
+          "stabilized",
+          "attenuated",
+          "approved"
+        ],
+        "negative": [
+          "non_compliant",
+          "exceedance",
+          "unmitigated",
+          "violation",
+          "encroachment",
+          "polluted"
+        ]
+      },
+      "research_question_templates": [
+        "How do statutory EQA 1974 prescribed activity controls across {entities} govern receptor buffer compliance?",
+        "Under what operational conditions do Guided Self-Regulation EMT protocols in {entities} prevent off-site boundary exceedances?"
+      ],
+      "causal_h1_templates": [
+        "Primary Model (H1): Unmitigated prescribed activity emissions across {entities} (Root Trigger) breach EESIM primary buffer attenuation thresholds (Transmission Mechanism), resulting in sensitive receptor compliance exceedances (Observable Outcome)."
+      ],
+      "dialectical_h2_templates": [
+        "Competing Model (H2): Enforced Guided Self-Regulation (GSR) engineering controls and closed-loop containment across {entities} confine environmental impacts strictly within statutory site boundaries."
+      ],
+      "concept_blueprints": [
+        {
+          "slug": "STATUTORY-EIA-BUFFER-COMPLIANCE",
+          "title": "Prescribed Activity Buffer Zone Attenuation and Receptor Protection",
+          "subtopic": "EQA 1974 Statutory Compliance",
+          "cluster": "CLUSTER_EIA_GOVERNANCE"
+        },
+        {
+          "slug": "GUIDED-SELF-REGULATION-EMT-SYSTEM",
+          "title": "Guided Self-Regulation Mainstreaming and Post-EIA Audit Verification",
+          "subtopic": "Environmental Management Plan",
+          "cluster": "CLUSTER_EMP_COMPLIANCE"
+        }
+      ]
+    },
+    "escp_hydrology": {
+      "domain_id": "escp_hydrology",
+      "domain_code": "ESCP",
+      "display_name": "ESCP Hydrology & MSMA Stormwater Engineering",
+      "description": "MSMA 2nd Edition (2012), JPS HP1 (2015), DID ESCP guidelines, USLE/MUSLE soil loss modeling, Tew 1999 K-factors, Rational Method peak runoff, and Exact Swinburne OSD sizing.",
+      "entity_keywords": [
+        "msma",
+        "usle",
+        "musle",
+        "swinburne",
+        "osd",
+        "detention_storage",
+        "rational_method",
+        "ari",
+        "hyetograph",
+        "k_factor",
+        "r_factor",
+        "silt_trap",
+        "check_dam",
+        "riprap"
+      ],
+      "polarity_vectors": {
+        "positive": [
+          "detained",
+          "attenuated",
+          "stabilized",
+          "settled",
+          "filtered",
+          "desilted"
+        ],
+        "negative": [
+          "eroded",
+          "scoured",
+          "overtopped",
+          "surcharged",
+          "washed_off",
+          "clogged"
+        ]
+      },
+      "research_question_templates": [
+        "How do MSMA design storm intensities across {entities} govern peak runoff discharge and sediment basin trap efficiency?",
+        "Under what soil erodibility and slope gradient conditions does {entities} require multi-stage OSD detention routing?"
+      ],
+      "causal_h1_templates": [
+        "Primary Model (H1): High-ARI convective storm intensity across {entities} (Root Trigger) elevates overland sheet and rill detachment rates (Transmission Mechanism), surcharging downstream sediment basin settling volumes (Observable Outcome)."
+      ],
+      "dialectical_h2_templates": [
+        "Competing Model (H2): Phased earthwork scheduling paired with polymer soil binders and tiered check-dams across {entities} maintains effluent TSS below statutory design thresholds."
+      ],
+      "concept_blueprints": [
+        {
+          "slug": "MSMA-OSD-HYDROLOGIC-ROUTING",
+          "title": "MSMA Stormwater Detention Routing and Peak Discharge Attenuation",
+          "subtopic": "Urban Stormwater Management",
+          "cluster": "CLUSTER_MSMA_HYDROLOGY"
+        },
+        {
+          "slug": "USLE-TROPICAL-SOIL-ERODIBILITY",
+          "title": "Tropical Soil Erodibility Mechanics and Multi-Stage Sediment Trap Sizing",
+          "subtopic": "Erosion & Sediment Control",
+          "cluster": "CLUSTER_ESCP_DESIGN"
+        }
+      ]
+    },
+    "marine_water_quality": {
+      "domain_id": "marine_water_quality",
+      "domain_code": "MWQM",
+      "display_name": "Marine & Riverine Water Quality Compliance Metrology",
+      "description": "Penang coastal reclamation monitoring (WQM1-WQM33, WQR7), three-way baseline/spec comparisons, 5-tier severity categorization, and logarithmic pH compliance rules.",
+      "entity_keywords": [
+        "wqm",
+        "wqr",
+        "marine_water",
+        "dissolved_oxygen",
+        "ammoniacal_nitrogen",
+        "e_coli",
+        "salinity",
+        "reclamation_plume",
+        "silt_curtain",
+        "baseline_comparison",
+        "mwqcs",
+        "nwqs"
+      ],
+      "polarity_vectors": {
+        "positive": [
+          "oxygenated",
+          "within_spec",
+          "contained",
+          "dispersed",
+          "compliant",
+          "buffered"
+        ],
+        "negative": [
+          "hypoxic",
+          "contaminated",
+          "plume_leakage",
+          "exceeded",
+          "acidified",
+          "elevated"
+        ]
+      },
+      "research_question_templates": [
+        "How do tidal current dispersion and silt curtain containment across {entities} influence multi-station marine water quality parameters?",
+        "Under what seasonal flushing conditions do nutrient and suspended solids levels in {entities} diverge from baseline specifications?"
+      ],
+      "causal_h1_templates": [
+        "Primary Model (H1): Coastal dredging and spring-tide resuspension across {entities} (Root Trigger) elevate localized nutrient and suspended solid loads (Transmission Mechanism), producing temporary specification exceedances at perimeter monitoring stations (Observable Outcome)."
+      ],
+      "dialectical_h2_templates": [
+        "Competing Model (H2): Observed parameter fluctuations across {entities} reflect regional estuarine riverine inflows rather than localized marine construction plume migration."
+      ],
+      "concept_blueprints": [
+        {
+          "slug": "MARINE-PLUME-CONTAINMENT-METROLOGY",
+          "title": "Coastal Reclamation Plume Containment and Multi-Station Compliance Dynamics",
+          "subtopic": "Marine Environmental Monitoring",
+          "cluster": "CLUSTER_MARINE_WQ"
+        },
+        {
+          "slug": "THREE-WAY-BASELINE-SEVERITY-MODEL",
+          "title": "Three-Way Baseline Variance Attribution and Logarithmic pH Calibration",
+          "subtopic": "Water Quality Analytics",
+          "cluster": "CLUSTER_WQ_COMPLIANCE"
+        }
+      ]
+    },
+    "terrain_modelling": {
+      "domain_id": "terrain_modelling",
+      "domain_code": "TERR",
+      "display_name": "3D Terrain Gridding & JMG Slope Risk Classification",
+      "description": "Golden Software Surfer kriging, AutoCAD spot heights, UTM Zone 47N (Kertau) coordinate projection, planar regression (Z=AX+BY+C), and JMG Class I-IV hill-land suitability.",
+      "entity_keywords": [
+        "surfer",
+        "kriging",
+        "spot_height",
+        "jmg_class",
+        "kertau",
+        "utm_47n",
+        "planar_regression",
+        "contour_grid",
+        "hill_land",
+        "class_iii",
+        "class_iv",
+        "aspect_angle"
+      ],
+      "polarity_vectors": {
+        "positive": [
+          "gentle_slope",
+          "stable_grade",
+          "class_i",
+          "class_ii",
+          "converged",
+          "calibrated"
+        ],
+        "negative": [
+          "steep_gradient",
+          "class_iv",
+          "landslide_risk",
+          "oversteepened",
+          "unstable",
+          "warped"
+        ]
+      },
+      "research_question_templates": [
+        "How does kriging grid interpolation across {entities} govern JMG Class III and Class IV slope risk delineation?",
+        "Under what topographic relief conditions does planar regression modeling in {entities} identify geotechnical instability zones?"
+      ],
+      "causal_h1_templates": [
+        "Primary Model (H1): Steep natural terrain gradients exceeding twenty-five degrees across {entities} (Root Trigger) concentrate subsurface pore-water pressure along weathered granite interfaces (Transmission Mechanism), elevating JMG Class III/IV slope failure risk (Observable Outcome)."
+      ],
+      "dialectical_h2_templates": [
+        "Competing Model (H2): Engineered contiguous bored-pile retaining walls and sub-horizontal drainage arrays across {entities} stabilize effective shear strength across cut-and-fill platforms."
+      ],
+      "concept_blueprints": [
+        {
+          "slug": "JMG-SLOPE-CLASSIFICATION-GRIDDING",
+          "title": "Topographical Kriging Interpolation and JMG Slope Risk Zonation",
+          "subtopic": "Geotechnical Terrain Modeling",
+          "cluster": "CLUSTER_TERRAIN_SLOPE"
+        },
+        {
+          "slug": "PLANAR-REGRESSION-RELIEF-MODEL",
+          "title": "Planar Regression Elevation Fitting and Hill-Land Suitability Assessment",
+          "subtopic": "GIS & Coordinate Metrology",
+          "cluster": "CLUSTER_GIS_TERRAIN"
+        }
+      ]
+    },
+    "project_qs_estimation": {
+      "domain_id": "project_qs_estimation",
+      "domain_code": "QSEST",
+      "display_name": "Project Cost Engineering & Quantity Surveying (CIDB/JKR)",
+      "description": "Malaysian CIDB/JKR unit rate build-ups, Bill of Quantities (BOQ) take-offs, ESC BMP costing, OSD civil works, STP packages, and drone survey cost models.",
+      "entity_keywords": [
+        "cidb",
+        "jkr_rate",
+        "bill_of_quantities",
+        "boq",
+        "unit_rate",
+        "preliminaries",
+        "contingency",
+        "earthwork_rate",
+        "labour_plant",
+        "qs_takeoff",
+        "cost_buildup"
+      ],
+      "polarity_vectors": {
+        "positive": [
+          "cost_efficient",
+          "within_budget",
+          "optimized",
+          "value_engineered",
+          "competitive"
+        ],
+        "negative": [
+          "cost_overrun",
+          "escalated",
+          "under_budgeted",
+          "inflated",
+          "variation_order"
+        ]
+      },
+      "research_question_templates": [
+        "How do CIDB/JKR material, plant, and labour unit rate variations in {entities} impact total civil works capital expenditure?",
+        "Under what site maintenance schedules do recurring BMP refurbishment cycles in {entities} drive lifecycle cost variance?"
+      ],
+      "causal_h1_templates": [
+        "Primary Model (H1): Prolonged earthwork duration and repeated monsoon desilting cycles across {entities} (Root Trigger) compound plant utilization and geotextile replacement quantities (Transmission Mechanism), driving civil works BOQ cost escalation (Observable Outcome)."
+      ],
+      "dialectical_h2_templates": [
+        "Competing Model (H2): Upfront modular precast detention structures and bulk procurement discounts across {entities} cap lifecycle maintenance expenditure within baseline contingency allowances."
+      ],
+      "concept_blueprints": [
+        {
+          "slug": "CIDB-JKR-UNIT-RATE-BUILDUP",
+          "title": "Component-Level Civil Works Unit Rate Build-Up and BOQ Sensitivity",
+          "subtopic": "Quantity Surveying & Costing",
+          "cluster": "CLUSTER_QS_COSTING"
+        },
+        {
+          "slug": "LIFECYCLE-BMP-MAINTENANCE-ECONOMICS",
+          "title": "Environmental Mitigation Lifecycle Costing and Contingency Allocation",
+          "subtopic": "Engineering Economics",
+          "cluster": "CLUSTER_PROJECT_ECONOMICS"
+        }
+      ]
+    },
+    "gamified_pedagogy": {
+      "domain_id": "gamified_pedagogy",
+      "domain_code": "PEDAG",
+      "display_name": "Gamified Python Pedagogy & Cognitive Scaffolding",
+      "description": "Hero Kai and Scrolls of Pythonia storytelling pedagogy for ages 10-12, tiered Apprentice/Wizard/Master task cards, Colab templates, and boss-battle coding mechanics.",
+      "entity_keywords": [
+        "hero_kai",
+        "pythonia",
+        "apprentice_tier",
+        "wizard_tier",
+        "master_tier",
+        "pedagogy",
+        "scaffolding",
+        "colab_notebook",
+        "boss_battle",
+        "young_learners"
+      ],
+      "polarity_vectors": {
+        "positive": [
+          "engaged",
+          "mastered",
+          "scaffolded",
+          "intuitive",
+          "retained",
+          "completed"
+        ],
+        "negative": [
+          "frustrated",
+          "overwhelmed",
+          "disengaged",
+          "syntax_blocked",
+          "dropped"
+        ]
+      },
+      "research_question_templates": [
+        "How does narrative quest scaffolding across {entities} improve algorithmic problem-solving retention among young learners?",
+        "Under what cognitive load thresholds do tiered Apprentice-to-Master task progressions in {entities} prevent syntax frustration?"
+      ],
+      "causal_h1_templates": [
+        "Primary Model (H1): Embedding abstract control-flow and loop constructs within {entities} (Root Trigger) reduces extraneous cognitive load via concrete game-state feedback (Transmission Mechanism), accelerating independent coding mastery (Observable Outcome)."
+      ],
+      "dialectical_h2_templates": [
+        "Competing Model (H2): Excessive narrative ornamentation in {entities} can distract learners from core syntax mechanics unless paired with immediate code-execution checkpoints."
+      ],
+      "concept_blueprints": [
+        {
+          "slug": "TIERED-QUEST-COGNITIVE-SCAFFOLDING",
+          "title": "Tiered Narrative Scaffolding and Algorithmic Mastery Progression",
+          "subtopic": "Computer Science Pedagogy",
+          "cluster": "CLUSTER_GAMIFIED_PEDAGOGY"
+        },
+        {
+          "slug": "INTERACTIVE-FEEDBACK-RETENTION-LOOP",
+          "title": "Immediate Game-State Feedback Loops and Syntax Error Resilience",
+          "subtopic": "Instructional Design",
+          "cluster": "CLUSTER_LEARNING_SYSTEMS"
+        }
+      ]
+    },
+    "aitg_pkm_architecture": {
+      "domain_id": "aitg_pkm_architecture",
+      "domain_code": "AITG",
+      "display_name": "AITG Multi-Agent Governance & Sovereign PKM Architecture",
+      "description": "AI Team Governance (AITG), RIE Constitutional Stewardship, PARA/CODE/Zettelkasten knowledge vaults, SHA-256 custody chains (Librarian, Auditor, Publisher), and SSOT verification.",
+      "entity_keywords": [
+        "aitg",
+        "custody_receipt",
+        "auditor_certificate",
+        "release_manifest",
+        "zettelkasten",
+        "ssot_vault",
+        "merkle_root",
+        "epistemic_wall",
+        "sparky",
+        "level_5_architect"
+      ],
+      "polarity_vectors": {
+        "positive": [
+          "governed",
+          "sealed",
+          "verified",
+          "auditable",
+          "sovereign",
+          "deterministic"
+        ],
+        "negative": [
+          "unverified",
+          "drifted",
+          "tampered",
+          "hallucinated",
+          "unarchived",
+          "fragmented"
+        ]
+      },
+      "research_question_templates": [
+        "How does cryptographic custody separation across {entities} prevent silent AI authority drift and ungrounded synthesis?",
+        "Under what multi-agent workflow conditions do fail-closed validation gates in {entities} preserve Single Source of Truth integrity?"
+      ],
+      "causal_h1_templates": [
+        "Primary Model (H1): Enforcing mandatory pre-audit Librarian custody receipts and deterministic semantic gates across {entities} (Root Trigger) blocks unverified candidate mutations at the staging membrane (Transmission Mechanism), guaranteeing 100% SSOT provenance integrity (Observable Outcome)."
+      ],
+      "dialectical_h2_templates": [
+        "Competing Model (H2): Multi-stage cryptographic gatekeeping across {entities} introduces orchestration latency unless paired with automated CLI pipeline runners and indexed sidecar caches."
+      ],
+      "concept_blueprints": [
+        {
+          "slug": "FOUR-ROLE-CRYPTOGRAPHIC-CUSTODY",
+          "title": "Multi-Agent Cryptographic Custody Separation and Fail-Closed Release Gating",
+          "subtopic": "AI Team Governance (AITG)",
+          "cluster": "CLUSTER_AITG_GOVERNANCE"
+        },
+        {
+          "slug": "EPISTEMIC-SEPARATION-WALL-SSOT",
+          "title": "Epistemic Stratification and Sovereign Single Source of Truth Preservation",
+          "subtopic": "Sovereign Knowledge Architecture",
+          "cluster": "CLUSTER_RIE_ARCHITECTURE"
+        }
+      ]
+    }
+  },
+  "schema_version": "2.0.0",
+  "baseline_version": "RIE_v1.5_GOLDEN_STATE",
+  "last_updated": "2026-10-16",
+  "evolution_history": [
+    {
+      "version": "1.0.0",
+      "date": "2026-10-05",
+      "description": "Initial 4-domain externalized ontology for Phase 6B remediation."
+    },
+    {
+      "version": "1.4.1",
+      "date": "2026-10-16",
+      "description": "Canonicalized under 006_ENGINE/semantic_v1_4/taxonomy/."
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-16",
+      "description": "Expanded to 10 operational tracks under DIR-RIE-V1.5-FULL-CONTROLLED-IMPLEMENTATION-v1.0-20261016."
+    }
+  ],
+  "operational_tracks_v2": [
+    {
+      "track_number": 1,
+      "track_name": "Macro / Financial Analysis",
+      "domain_key": "macroeconomics",
+      "alias_key": "macro_financial_analysis"
+    },
+    {
+      "track_number": 2,
+      "track_name": "Equity Research",
+      "domain_key": "equity_research"
+    },
+    {
+      "track_number": 3,
+      "track_name": "Environmental EIA",
+      "domain_key": "environmental_eia"
+    },
+    {
+      "track_number": 4,
+      "track_name": "ESCP Hydrology",
+      "domain_key": "escp_hydrology",
+      "compat_key": "environmental_engineering"
+    },
+    {
+      "track_number": 5,
+      "track_name": "Marine Water Quality",
+      "domain_key": "marine_water_quality"
+    },
+    {
+      "track_number": 6,
+      "track_name": "Drone Photogrammetry",
+      "domain_key": "drone_photogrammetry"
+    },
+    {
+      "track_number": 7,
+      "track_name": "Terrain Modelling",
+      "domain_key": "terrain_modelling"
+    },
+    {
+      "track_number": 8,
+      "track_name": "Project QS Estimation",
+      "domain_key": "project_qs_estimation"
+    },
+    {
+      "track_number": 9,
+      "track_name": "Gamified Pedagogy",
+      "domain_key": "gamified_pedagogy"
+    },
+    {
+      "track_number": 10,
+      "track_name": "AITG / PKM Architecture",
+      "domain_key": "aitg_pkm_architecture"
+    }
+  ]
+}

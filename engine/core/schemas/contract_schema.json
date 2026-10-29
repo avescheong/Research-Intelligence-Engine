@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RIE Canonical Contract Schema",
+  "type": "object",
+  "required": [
+    "contract_id",
+    "version",
+    "domain",
+    "status"
+  ],
+  "properties": {
+    "contract_id": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "ACTIVE",
+        "FROZEN",
+        "DEPRECATED"
+      ]
+    }
+  }
+}

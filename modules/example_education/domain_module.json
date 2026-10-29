@@ -1,0 +1,41 @@
+{
+  "domain_id": "example_education",
+  "domain_code": "EDU",
+  "display_name": "Example Education Module",
+  "description": "Pluggable domain pack demonstrating educational curriculum mapping and learning telemetry.",
+  "enabled": true,
+  "entity_keywords": [
+    "curriculum",
+    "syllabus",
+    "assessment",
+    "rubric",
+    "student_learning_outcome"
+  ],
+  "polarity_vectors": {
+    "positive": [
+      "mastery",
+      "competency",
+      "aligned"
+    ],
+    "negative": [
+      "misaligned",
+      "deficient"
+    ]
+  },
+  "research_question_templates": [
+    "How does formative assessment pacing in {entities} influence competency progression?"
+  ],
+  "causal_h1_templates": [
+    "Primary Model (H1): Direct formative alignment in {entities} elevates student outcome attainment."
+  ],
+  "dialectical_h2_templates": [
+    "Competing Model (H2): Excessive standardized assessment in {entities} constrains exploratory learning."
+  ],
+  "concept_blueprints": [
+    {
+      "slug": "FORMATIVE-ASSESSMENT-PACING",
+      "title": "Formative Assessment Pacing and Competency Gains",
+      "cluster": "CLUSTER_EDU"
+    }
+  ]
+}

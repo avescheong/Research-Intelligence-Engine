@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DialecticalIOBatch",
+  "description": "Schema for candidate Interpretation Objects emitted by dialectical_io_engine.py into conceptual_ko_engine.py",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "IO_ID",
+      "Research_Question",
+      "Primary_Interpretation",
+      "Alternative_Interpretation",
+      "Supporting_EO",
+      "Contradicting_EO",
+      "Confidence",
+      "Human_Review_Notes",
+      "Future_Research_Needed",
+      "Status",
+      "Human_Approval_State",
+      "Canonical_Status",
+      "Transaction_ID"
+    ],
+    "properties": {
+      "IO_ID": { "type": "string", "pattern": "^IO-[A-Za-z0-9_-]+$" },
+      "Research_Question": { "type": "string", "minLength": 20 },
+      "Primary_Interpretation": { "type": "string", "minLength": 30 },
+      "Alternative_Interpretation": { "type": "string", "minLength": 30 },
+      "Supporting_EO": { "type": "string", "minLength": 5 },
+      "Contradicting_EO": { "type": "string" },
+      "Contradiction_Type": { "type": "string" },
+      "Dialectical_Independence_Cosine": { "type": "number", "maximum": 0.65 },
+      "Confidence": { "type": "number", "minimum": 0.55, "maximum": 0.92 },
+      "Human_Review_Notes": { "type": "string" },
+      "Future_Research_Needed": { "type": "string" },
+      "Status": { "type": "string", "enum": ["CANDIDATE", "CANDIDATE_UNDER_TENSION", "CANDIDATE_UNRESOLVED_CONFLICT"] },
+      "Human_Approval_State": { "type": "string", "enum": ["PENDING_LEVEL_5_REVIEW"] },
+      "Canonical_Status": { "type": "string", "enum": ["NOT_APPROVED"] },
+      "Transaction_ID": { "type": "string" }
+    }
+  }
+}

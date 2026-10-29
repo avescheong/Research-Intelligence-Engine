@@ -1,0 +1,90 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://rie.internal/schemas/v1/kg_relationship_edge.schema.json",
+  "title": "RIE Knowledge Graph Relationship Edge Contract",
+  "description": "Formal contract defining a verified, typed, directed relational edge with mandatory provenance attachment.",
+  "type": "object",
+  "required": [
+    "relationship_id",
+    "source_entity",
+    "target_entity",
+    "relationship_type",
+    "provenance_source",
+    "evidence_reference",
+    "sha256_hash",
+    "confidence_score",
+    "creation_authority",
+    "approval_reference"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "relationship_id": {
+      "type": "string",
+      "description": "Unique identifier of the relational edge.",
+      "pattern": "^REL-[A-Z0-9]+(-[A-Z0-9_]+)*$"
+    },
+    "source_entity": {
+      "type": "string",
+      "description": "Identifier or title of the source entity node.",
+      "minLength": 1
+    },
+    "target_entity": {
+      "type": "string",
+      "description": "Identifier or title of the target entity node.",
+      "minLength": 1
+    },
+    "relationship_type": {
+      "type": "string",
+      "description": "Controlled predicate from the approved closed relationship vocabulary.",
+      "enum": [
+        "DERIVED_FROM",
+        "DEPENDS_ON",
+        "REGULATED_BY",
+        "MONITORS_IMPACT_OF",
+        "MITIGATES",
+        "APPLIES_TO",
+        "CONSTRAINED_BY",
+        "FEEDS",
+        "CAUSALLY_TRANSMITS",
+        "SUBSTANTIATES",
+        "SYNTHESIZED_INTO",
+        "COUPLED_WITH"
+      ]
+    },
+    "provenance_source": {
+      "type": "string",
+      "description": "Path to the primary empirical evidence source container.",
+      "minLength": 1
+    },
+    "evidence_reference": {
+      "type": "string",
+      "description": "Precise evidentiary locator (e.g. line numbers, offset, table).",
+      "minLength": 1
+    },
+    "sha256_hash": {
+      "type": "string",
+      "description": "Cryptographic SHA-256 hash of the evidence container.",
+      "pattern": "^[a-fA-F0-9]{64}$"
+    },
+    "confidence_score": {
+      "type": "number",
+      "description": "Deterministic confidence score.",
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "creation_authority": {
+      "type": "string",
+      "description": "Authority governing the edge creation.",
+      "minLength": 1
+    },
+    "approval_reference": {
+      "type": "string",
+      "description": "Directive or decision authorizing the relationship (e.g. DEC-080-KG-CORE).",
+      "minLength": 1
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Additional edge properties and domain annotations."
+    }
+  }
+}

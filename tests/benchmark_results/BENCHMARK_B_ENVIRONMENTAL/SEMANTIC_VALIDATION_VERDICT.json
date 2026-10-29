@@ -1,0 +1,61 @@
+{
+  "overall_semantic_status": "PASS",
+  "source_deduplication_gate": {
+    "gate": "GATE_SEM_SRC_01",
+    "passed": true,
+    "message": "PASS: Source fingerprint (SRC-EIA-PENANG-001:27b8b95d665da6c128aca8d3) and 5 EO span hashes verified unique."
+  },
+  "passed_gate_count": 12,
+  "total_gate_count": 12,
+  "promotion_authorized": true,
+  "gate_details": {
+    "GATE_SEM_EO_01": {
+      "passed": true,
+      "message": "PASS: All EOs exhibit verified transcript timecodes and span hashes."
+    },
+    "GATE_SEM_EO_02": {
+      "passed": true,
+      "message": "PASS: All EOs satisfy propositional completeness and clause structure."
+    },
+    "GATE_SEM_EO_03": {
+      "passed": true,
+      "message": "PASS: Intra-batch Jaccard overlap strictly bounded (< 0.45)."
+    },
+    "GATE_SEM_EO_04": {
+      "passed": true,
+      "message": "PASS: Ingestion cardinality (5 EOs) satisfies dynamic envelope [3, 8]."
+    },
+    "GATE_SEM_IO_01": {
+      "passed": true,
+      "message": "PASS: Counter-hypotheses exhibit authentic dialectical diversity (Cosine < 0.55)."
+    },
+    "GATE_SEM_IO_02": {
+      "passed": true,
+      "message": "PASS: All IOs exhibit verified dialectical independence between H1 and H2."
+    },
+    "GATE_SEM_IO_03": {
+      "passed": true,
+      "message": "PASS: Research Questions demonstrate independent domain inquiry (Cosine < 0.60)."
+    },
+    "GATE_SEM_IO_04": {
+      "passed": true,
+      "message": "PASS: Confidence scores dynamically calibrated with genuine variance."
+    },
+    "GATE_SEM_IO_05": {
+      "passed": true,
+      "message": "PASS: Contradiction references validated against active EO registry without silent erasure."
+    },
+    "GATE_SEM_KO_01": {
+      "passed": true,
+      "message": "PASS: Concept titles reflect authentic abstract principles with zero boilerplate matches."
+    },
+    "GATE_SEM_KO_02": {
+      "passed": true,
+      "message": "PASS: Concepts maintain balanced evidence/interpretation binding without monolithic collapse."
+    },
+    "GATE_SEM_KO_03": {
+      "passed": true,
+      "message": "PASS: Dynamic KO confidence calibration and causal edge transmission rationale (>= 10 words) verified."
+    }
+  }
+}

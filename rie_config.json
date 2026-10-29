@@ -1,0 +1,11 @@
+{
+  "system_version": "1.0.0",
+  "engine_version": "1.0.0-desktop",
+  "authority_role": "Human Architect",
+  "steward_id": "RIE-STEWARD-001",
+  "workspace_dir": "workspace",
+  "ssot_workbook": "workspace/RIE_COMMAND_CENTER.xlsx",
+  "sqlite_sidecar": "workspace/rie_substrate.db",
+  "obsidian_vault_dir": "workspace/obsidian_vault",
+  "auto_sync_sqlite": true
+}

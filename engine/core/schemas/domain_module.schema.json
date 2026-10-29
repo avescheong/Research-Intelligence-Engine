@@ -1,0 +1,59 @@
+{
+  "": "http://json-schema.org/draft-07/schema#",
+  "title": "RIE Domain Module Specification",
+  "type": "object",
+  "required": [
+    "domain_id",
+    "domain_code",
+    "display_name",
+    "entity_keywords"
+  ],
+  "properties": {
+    "domain_id": {
+      "type": "string"
+    },
+    "domain_code": {
+      "type": "string"
+    },
+    "display_name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "enabled": {
+      "type": "boolean",
+      "default": true
+    },
+    "entity_keywords": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "polarity_vectors": {
+      "type": "object"
+    },
+    "research_question_templates": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "causal_h1_templates": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dialectical_h2_templates": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "concept_blueprints": {
+      "type": "array"
+    }
+  }
+}

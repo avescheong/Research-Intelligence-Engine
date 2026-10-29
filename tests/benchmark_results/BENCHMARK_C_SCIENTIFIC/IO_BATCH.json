@@ -1,0 +1,36 @@
+[
+  {
+    "IO_ID": "IO-TX-BENCHMARK-SCI-001-001",
+    "Research_Question": "How does experimental intervention across Controlled and laboratory and experiments shift observed treatment outcome distributions?",
+    "Primary_Interpretation": "Primary Model (H1): Controlled parameter manipulation in Controlled and laboratory and experiments (Root Trigger) alters fundamental state dynamics (Transmission Mechanism), producing statistically significant divergence in measurable response variables (Observable Outcome). Grounded in: Controlled laboratory experiments were conducted to evaluate semiconductor sensor calibration v...",
+    "Alternative_Interpretation": "Competing Model (H2): Observed variations in Controlled and laboratory and experiments are consistent with stochastic measurement noise and sampling error, exhibiting no statistically significant departure from the null hypothesis.",
+    "Supporting_EO": "EO-LeadResearcher-SENSOR-CALIBRATION-VARIANCE-000000-001, EO-LeadResearcher-MEASUREMENT-STATISTICAL-SENSOR-000017-002",
+    "Contradicting_EO": "EO-LeadResearcher-CALIBRATION-ERROR-MEASUREMENT-000035-003",
+    "Contradiction_Type": "DIRECT_EMPIRICAL_REFUTATION",
+    "Dialectical_Independence_Cosine": 0.216,
+    "Confidence": 0.77,
+    "Human_Review_Notes": "Authentic dialectical model evaluating SensorCalibrationVariance under domain 'scientific_research'. Supporting EOs: 2; Contradicting EOs: 1.",
+    "Future_Research_Needed": "Execute independent replication trials with expanded sample cohorts, dual-blind sensor calibration, and cross-instrument validation.",
+    "Status": "CANDIDATE_UNDER_TENSION",
+    "Human_Approval_State": "PENDING_LEVEL_5_REVIEW",
+    "Canonical_Status": "NOT_APPROVED",
+    "Transaction_ID": "TX-BENCHMARK-SCI-001"
+  },
+  {
+    "IO_ID": "IO-TX-BENCHMARK-SCI-001-002",
+    "Research_Question": "Under what boundary conditions does empirical variation in Independent and experimental and replications deviate from established theoretical models?",
+    "Primary_Interpretation": "Primary Model (H1): Systematic exposure to environmental treatment stressors (Root Trigger) induces compensatory physical adaptation in Independent and experimental and replications (Transmission Mechanism), resulting in quantifiable changes in baseline telemetry (Observable Outcome). Grounded in: Independent experimental replications confirmed that physical dielectric relaxation induces mea...",
+    "Alternative_Interpretation": "Competing Model (H2): Uncontrolled environmental confounders and instrument temperature drift account for the observed telemetry shift in Independent and experimental and replications rather than the asserted primary experimental mechanism.",
+    "Supporting_EO": "EO-LeadResearcher-CALIBRATION-ERROR-MEASUREMENT-000035-003, EO-LeadResearcher-EMPIRICAL-VARIANCE-ERROR-000052-004",
+    "Contradicting_EO": "EO-LeadResearcher-MEASUREMENT-STATISTICAL-SENSOR-000017-002",
+    "Contradiction_Type": "DIRECT_EMPIRICAL_REFUTATION",
+    "Dialectical_Independence_Cosine": 0.267,
+    "Confidence": 0.65,
+    "Human_Review_Notes": "Authentic dialectical model evaluating SensorCalibrationVariance under domain 'scientific_research'. Supporting EOs: 2; Contradicting EOs: 1.",
+    "Future_Research_Needed": "Execute independent replication trials with expanded sample cohorts, dual-blind sensor calibration, and cross-instrument validation.",
+    "Status": "CANDIDATE_UNDER_TENSION",
+    "Human_Approval_State": "PENDING_LEVEL_5_REVIEW",
+    "Canonical_Status": "NOT_APPROVED",
+    "Transaction_ID": "TX-BENCHMARK-SCI-001"
+  }
+]

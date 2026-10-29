@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RIE Acquisition Telemetry Schema v2.0",
+  "type": "object",
+  "required": [
+    "acquisition_tool",
+    "acquisition_timestamp",
+    "source_url",
+    "environment"
+  ],
+  "properties": {
+    "acquisition_tool": { "type": "string" },
+    "acquisition_timestamp": { "type": "string" },
+    "source_url": { "type": "string" },
+    "environment": { "type": "string" },
+    "network_mode": { "type": "string" },
+    "operator_id": { "type": "string" }
+  },
+  "additionalProperties": true
+}

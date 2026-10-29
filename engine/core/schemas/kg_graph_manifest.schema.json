@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://rie.internal/schemas/v1/kg_graph_manifest.schema.json",
+  "title": "RIE Knowledge Graph Topology Manifest Contract",
+  "description": "Formal contract defining the structure of the serialized relational knowledge graph container.",
+  "type": "object",
+  "required": [
+    "graph_id",
+    "version",
+    "schema_version",
+    "generated_at",
+    "governing_authority",
+    "steward",
+    "graph_metrics",
+    "nodes",
+    "edges"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "graph_id": {
+      "type": "string",
+      "description": "Unique identifier of the graph instance."
+    },
+    "version": {
+      "type": "string",
+      "description": "Semantic version of the graph manifest."
+    },
+    "schema_version": {
+      "type": "string",
+      "description": "Contract schema identifier."
+    },
+    "generated_at": {
+      "type": "string",
+      "description": "ISO 8601 generation timestamp."
+    },
+    "governing_authority": {
+      "type": "string",
+      "description": "Human Architect Level 5 authority."
+    },
+    "steward": {
+      "type": "string",
+      "description": "Steward identity responsible for graph maintenance."
+    },
+    "graph_metrics": {
+      "type": "object",
+      "required": [
+        "total_nodes",
+        "total_edges",
+        "connected_components",
+        "orphan_nodes_count"
+      ],
+      "properties": {
+        "total_nodes": {"type": "integer", "minimum": 0},
+        "total_edges": {"type": "integer", "minimum": 0},
+        "connected_components": {"type": "integer", "minimum": 0},
+        "orphan_nodes_count": {"type": "integer", "minimum": 0}
+      }
+    },
+    "nodes": {
+      "type": "array",
+      "description": "List of registered entity nodes in the graph."
+    },
+    "edges": {
+      "type": "array",
+      "description": "List of verified relationship edges in the graph."
+    }
+  }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "KO_ID": "KO-MACRO-SOVEREIGN-DEBT-OVERHANG-EO-008-001",
+    "Concept_Title": "Sovereign Debt Issuance Dynamics and Primary Dealer Absorption Frictions",
+    "Domain": "Macro Economics / Sovereign Liquidity Architecture",
+    "Origin_Source": "SRC-VIDEO-008",
+    "Supporting_EO": "EO-FelixPrehn-DOLLAR-INFLATION-000000-001, EO-FelixPrehn-DOLLAR-INFLATION-FED-000353-004, EO-FelixPrehn-INTEREST-DEBT-INTEREST-000719-007, EO-FelixPrehn-GROWN-BIG-BECOME-001068-010, EO-FelixPrehn-INFLATION-001440-013",
+    "Supporting_IO": "IO-TX-BENCHMARK-VIDEO-008-001, IO-TX-BENCHMARK-VIDEO-008-004",
+    "Confidence": 0.84,
+    "Status": "CANDIDATE",
+    "Human_Approval_State": "PENDING_LEVEL_5_REVIEW",
+    "Knowledge_Status": "CANDIDATE",
+    "Human_Review_Status": "PENDING",
+    "Canonical_Status": "NOT_APPROVED",
+    "Transaction_ID": "TX-BENCHMARK-VIDEO-008"
+  },
+  {
+    "KO_ID": "KO-MACRO-LIQUIDITY-BUFFER-DEPLETION-EO-008-002",
+    "Concept_Title": "Collateral Velocity Decoupling and Institutional Liquidity Drainage",
+    "Domain": "Macro Economics / Sovereign Liquidity Architecture",
+    "Origin_Source": "SRC-VIDEO-008",
+    "Supporting_EO": "EO-FelixPrehn-DOLLAR-INFLATION-000112-002, EO-FelixPrehn-STORE-PAY-MONEY-000488-005, EO-FelixPrehn-DEBT-000831-008, EO-FelixPrehn-DEBT-DEBT-001200-011, EO-FelixPrehn-DEBT-001581-014",
+    "Supporting_IO": "IO-TX-BENCHMARK-VIDEO-008-002, IO-TX-BENCHMARK-VIDEO-008-005",
+    "Confidence": 0.87,
+    "Status": "CANDIDATE",
+    "Human_Approval_State": "PENDING_LEVEL_5_REVIEW",
+    "Knowledge_Status": "CANDIDATE",
+    "Human_Review_Status": "PENDING",
+    "Canonical_Status": "NOT_APPROVED",
+    "Transaction_ID": "TX-BENCHMARK-VIDEO-008"
+  },
+  {
+    "KO_ID": "KO-MACRO-CROSS-ASSET-VALUATION-ROTATION-EO-008-003",
+    "Concept_Title": "Intermarket Capital Rotation and Real Asset Re-Anchoring Mechanics",
+    "Domain": "Macro Economics / Sovereign Liquidity Architecture",
+    "Origin_Source": "SRC-VIDEO-008",
+    "Supporting_EO": "EO-FelixPrehn-BIG-ECONOMIC-GROWTH-000250-003, EO-FelixPrehn-TREASURY-TREASURY-TREASURIES-000592-006, EO-FelixPrehn-DEBT-DEBT-DEBT-000962-009, EO-FelixPrehn-INFLATION-001308-012, EO-FelixPrehn-CHINA-RESPONSE-TARIFFS-001692-015",
+    "Supporting_IO": "IO-TX-BENCHMARK-VIDEO-008-003",
+    "Confidence": 0.91,
+    "Status": "CANDIDATE",
+    "Human_Approval_State": "PENDING_LEVEL_5_REVIEW",
+    "Knowledge_Status": "CANDIDATE",
+    "Human_Review_Status": "PENDING",
+    "Canonical_Status": "NOT_APPROVED",
+    "Transaction_ID": "TX-BENCHMARK-VIDEO-008"
+  }
+]

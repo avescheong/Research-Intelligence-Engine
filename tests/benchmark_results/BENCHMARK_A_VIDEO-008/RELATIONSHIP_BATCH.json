@@ -1,0 +1,30 @@
+[
+  {
+    "Lookup_Key": "KO-MACRO-SOVEREIGN-DEBT-OVERHANG-EO-008-001_KO-MACRO-LIQUIDITY-BUFFER-DEPLETION-EO-008-002",
+    "Relationship_ID": "REL-MACRO-SOVEREIG-LIQUIDIT-001",
+    "From_KO": "KO-MACRO-SOVEREIGN-DEBT-OVERHANG-EO-008-001",
+    "To_KO": "KO-MACRO-LIQUIDITY-BUFFER-DEPLETION-EO-008-002",
+    "Relationship_Description": "Empirical dynamics modeled in KO-MACRO-SOVEREIGN-DEBT-OVERHANG-EO-008-001 directly constrain operational parameters, thereby governing downstream functional response and feedback behavior in KO-MACRO-LIQUIDITY-BUFFER-DEPLETION-EO-008-002.",
+    "Relationship_Type": "Causal",
+    "Confidence": 0.85,
+    "Human_Approval": "Pending Review",
+    "Cluster_ID": "CLUSTER_SOVEREIGN_DEBT_SPIRAL",
+    "Status": "CANDIDATE",
+    "Notes": "Dialectical edge synthesized under transaction TX-BENCHMARK-VIDEO-008 across domain 'macroeconomics'.",
+    "Transaction_ID": "TX-BENCHMARK-VIDEO-008"
+  },
+  {
+    "Lookup_Key": "KO-MACRO-LIQUIDITY-BUFFER-DEPLETION-EO-008-002_KO-MACRO-CROSS-ASSET-VALUATION-ROTATION-EO-008-003",
+    "Relationship_ID": "REL-MACRO-LIQUIDIT-CROSS-002",
+    "From_KO": "KO-MACRO-LIQUIDITY-BUFFER-DEPLETION-EO-008-002",
+    "To_KO": "KO-MACRO-CROSS-ASSET-VALUATION-ROTATION-EO-008-003",
+    "Relationship_Description": "Empirical dynamics modeled in KO-MACRO-LIQUIDITY-BUFFER-DEPLETION-EO-008-002 directly constrain operational parameters, thereby governing downstream functional response and feedback behavior in KO-MACRO-CROSS-ASSET-VALUATION-ROTATION-EO-008-003.",
+    "Relationship_Type": "Causal",
+    "Confidence": 0.89,
+    "Human_Approval": "Pending Review",
+    "Cluster_ID": "CLUSTER_MONETARY_TRANSMISSION",
+    "Status": "CANDIDATE",
+    "Notes": "Dialectical edge synthesized under transaction TX-BENCHMARK-VIDEO-008 across domain 'macroeconomics'.",
+    "Transaction_ID": "TX-BENCHMARK-VIDEO-008"
+  }
+]

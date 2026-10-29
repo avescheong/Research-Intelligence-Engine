@@ -1,0 +1,43 @@
+{
+  "domain_id": "example_investing",
+  "domain_code": "INV",
+  "display_name": "Example Investing Module",
+  "description": "Pluggable domain pack demonstrating deep fundamental equity analysis and balance sheet metrology.",
+  "enabled": true,
+  "entity_keywords": [
+    "free_cash_flow",
+    "ebitda",
+    "capital_expenditure",
+    "debt_to_equity",
+    "moat",
+    "margin_of_safety"
+  ],
+  "polarity_vectors": {
+    "positive": [
+      "fcf_expansion",
+      "expanding_moat",
+      "pricing_power"
+    ],
+    "negative": [
+      "fcf_burn",
+      "moat_erosion",
+      "margin_compression"
+    ]
+  },
+  "research_question_templates": [
+    "How does durable pricing power in {entities} protect operating margins during cost-push cycles?"
+  ],
+  "causal_h1_templates": [
+    "Primary Model (H1): High return on invested capital in {entities} compound enterprise value above cost of capital."
+  ],
+  "dialectical_h2_templates": [
+    "Competing Model (H2): Industry disruption may erode pricing power in {entities} faster than historical capital returns imply."
+  ],
+  "concept_blueprints": [
+    {
+      "slug": "ROIC-COMPOUNDING-MOAT",
+      "title": "Return on Invested Capital and Economic Moat Compounding",
+      "cluster": "CLUSTER_INV"
+    }
+  ]
+}

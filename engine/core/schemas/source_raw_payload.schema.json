@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RIE Source Raw Payload Schema v2.0",
+  "type": "object",
+  "required": [
+    "source_url",
+    "source_title",
+    "speaker_author",
+    "organization_channel",
+    "date_published",
+    "duration"
+  ],
+  "properties": {
+    "source_url": { "type": "string" },
+    "source_title": { "type": "string" },
+    "speaker_author": { "type": "string" },
+    "organization_channel": { "type": "string" },
+    "date_published": { "type": "string" },
+    "duration": { "type": "string" },
+    "video_id": { "type": "string" }
+  },
+  "additionalProperties": true
+}

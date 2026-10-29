@@ -1,0 +1,32 @@
+[
+  {
+    "KO_ID": "KO-ENV-SEDIMENT-RUNOFF-ACCUMULATION-NV-001-001",
+    "Concept_Title": "Hydrodynamic Sediment Basin Sizing and Peak Monsoon Runoff Attenuation",
+    "Domain": "Environmental Engineering / Sediment Control & Hydrology",
+    "Origin_Source": "SRC-EIA-PENANG-001",
+    "Supporting_EO": "EO-DOEInspector-MONSOON-SLOPE-EXCAVATION-000000-001, EO-DOEInspector-WATER-TSS-TURBIDITY-000049-003, EO-DOEInspector-ERODIBILITY-MONSOON-000100-005",
+    "Supporting_IO": "IO-TX-BENCHMARK-ENV-001-001",
+    "Confidence": 0.82,
+    "Status": "CANDIDATE",
+    "Human_Approval_State": "PENDING_LEVEL_5_REVIEW",
+    "Knowledge_Status": "CANDIDATE",
+    "Human_Review_Status": "PENDING",
+    "Canonical_Status": "NOT_APPROVED",
+    "Transaction_ID": "TX-BENCHMARK-ENV-001"
+  },
+  {
+    "KO_ID": "KO-ENV-SOIL-ERODIBILITY-CLASSIFICATION-NV-001-002",
+    "Concept_Title": "Topographical Hill Slope Erodibility and BMP Surface Stabilization",
+    "Domain": "Environmental Engineering / Sediment Control & Hydrology",
+    "Origin_Source": "SRC-EIA-PENANG-001",
+    "Supporting_EO": "EO-DOEInspector-SEDIMENT-BASIN-SPILLWAY-000032-002, EO-DOEInspector-SILT-EFFLUENT-WEIR-000083-004",
+    "Supporting_IO": "IO-TX-BENCHMARK-ENV-001-002",
+    "Confidence": 0.81,
+    "Status": "CANDIDATE",
+    "Human_Approval_State": "PENDING_LEVEL_5_REVIEW",
+    "Knowledge_Status": "CANDIDATE",
+    "Human_Review_Status": "PENDING",
+    "Canonical_Status": "NOT_APPROVED",
+    "Transaction_ID": "TX-BENCHMARK-ENV-001"
+  }
+]

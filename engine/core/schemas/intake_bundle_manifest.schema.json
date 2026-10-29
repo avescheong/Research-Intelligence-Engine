@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RIE Intake Bundle Manifest Schema v2.0",
+  "type": "object",
+  "required": [
+    "bundle_version",
+    "bundle_id",
+    "created_at",
+    "source_url",
+    "transcript_file",
+    "transcript_sha256",
+    "payload_file",
+    "payload_sha256",
+    "telemetry_file",
+    "telemetry_sha256"
+  ],
+  "properties": {
+    "bundle_version": { "type": "string" },
+    "bundle_id": { "type": "string" },
+    "created_at": { "type": "string" },
+    "source_url": { "type": "string" },
+    "transcript_file": { "type": "string" },
+    "transcript_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "payload_file": { "type": "string" },
+    "payload_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "telemetry_file": { "type": "string" },
+    "telemetry_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+  },
+  "additionalProperties": true
+}

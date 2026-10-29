@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DiscourseUnitStream",
+  "description": "Schema for discourse units emitted by discourse_segmenter.py into semantic_eo_engine.py",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "unit_seq",
+      "text",
+      "word_count",
+      "start_sec",
+      "end_sec",
+      "duration_sec",
+      "wpm",
+      "span_sha256",
+      "terminal_punctuation"
+    ],
+    "properties": {
+      "unit_seq": { "type": "integer", "minimum": 1 },
+      "text": { "type": "string", "minLength": 1 },
+      "word_count": { "type": "integer", "minimum": 1 },
+      "start_sec": { "type": "number", "minimum": 0 },
+      "end_sec": { "type": "number", "minimum": 0 },
+      "duration_sec": { "type": "number", "minimum": 0.5 },
+      "wpm": { "type": "number", "minimum": 1 },
+      "span_sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+      "terminal_punctuation": { "type": "boolean" }
+    }
+  }
+}

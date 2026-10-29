@@ -1,0 +1,36 @@
+[
+  {
+    "IO_ID": "IO-TX-BENCHMARK-ENV-001-001",
+    "Research_Question": "How does the observed hydrologic shift in Intense and tropical and monsoon transmit across downstream sediment retention basins?",
+    "Primary_Interpretation": "Primary Model (H1): Intense precipitation on exposed earthworks across Intense and tropical and monsoon (Root Trigger) dislodges fine silt fractions into primary drainage channels (Transmission Mechanism), resulting in statutory TSS exceedances and sediment basin surcharge (Observable Outcome). Grounded in: Intense tropical monsoon precipitation exceeded fifty millimeters per hour across the exposed e...",
+    "Alternative_Interpretation": "Competing Model (H2): Measured turbidity spikes in Intense and tropical and monsoon reflect localized upstream riverbed scouring and natural organic decay rather than defective on-site perimeter silt mitigation.",
+    "Supporting_EO": "EO-DOEInspector-MONSOON-SLOPE-EXCAVATION-000000-001, EO-DOEInspector-SEDIMENT-BASIN-SPILLWAY-000032-002, EO-DOEInspector-WATER-TSS-TURBIDITY-000049-003",
+    "Contradicting_EO": "EO-DOEInspector-ERODIBILITY-MONSOON-000100-005",
+    "Contradiction_Type": "BOUNDARY_LIMITATION",
+    "Dialectical_Independence_Cosine": 0.145,
+    "Confidence": 0.8,
+    "Human_Review_Notes": "Authentic dialectical model evaluating SedimentErosionControl under domain 'environmental_engineering'. Supporting EOs: 3; Contradicting EOs: 1.",
+    "Future_Research_Needed": "Conduct continuous multi-station turbidity logging, evaluate settling velocity curves, and verify sediment basin dredging records.",
+    "Status": "CANDIDATE_UNDER_TENSION",
+    "Human_Approval_State": "PENDING_LEVEL_5_REVIEW",
+    "Canonical_Status": "NOT_APPROVED",
+    "Transaction_ID": "TX-BENCHMARK-ENV-001"
+  },
+  {
+    "IO_ID": "IO-TX-BENCHMARK-ENV-001-002",
+    "Research_Question": "Under what rainfall intensity conditions does empirical variation in Tiered and settlement and compartment exceed statutory sediment trapping capacity?",
+    "Primary_Interpretation": "Primary Model (H1): Saturated soil profiles on steep gradients tied to Tiered and settlement and compartment (Root Trigger) accelerate surface runoff velocity (Transmission Mechanism), driving rill scouring and sediment transport overload across downstream perimeter bunds (Observable Outcome). Grounded in: The tiered settlement compartment successfully retained heavy suspended silt particles while cl...",
+    "Alternative_Interpretation": "Competing Model (H2): Sediment retention capacity remains compliant within engineering safety margins, with observed surface discoloration across Tiered and settlement and compartment attributable to suspended colloidal clays that settle without ecological degradation.",
+    "Supporting_EO": "EO-DOEInspector-SILT-EFFLUENT-WEIR-000083-004, EO-DOEInspector-ERODIBILITY-MONSOON-000100-005",
+    "Contradicting_EO": "NONE",
+    "Contradiction_Type": "NONE",
+    "Dialectical_Independence_Cosine": 0.191,
+    "Confidence": 0.75,
+    "Human_Review_Notes": "Authentic dialectical model evaluating SedimentErosionControl under domain 'environmental_engineering'. Supporting EOs: 2; Contradicting EOs: 0.",
+    "Future_Research_Needed": "Conduct continuous multi-station turbidity logging, evaluate settling velocity curves, and verify sediment basin dredging records.",
+    "Status": "CANDIDATE",
+    "Human_Approval_State": "PENDING_LEVEL_5_REVIEW",
+    "Canonical_Status": "NOT_APPROVED",
+    "Transaction_ID": "TX-BENCHMARK-ENV-001"
+  }
+]

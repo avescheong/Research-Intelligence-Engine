@@ -1,0 +1,16 @@
+[
+  {
+    "Lookup_Key": "KO-SCI-EXPERIMENTAL-TREATMENT-EFFECT-CI-001-001_KO-SCI-INSTRUMENTATION-MEASUREMENT-NOISE-CI-001-002",
+    "Relationship_ID": "REL-SCI-EXPERIME-INSTRUME-001",
+    "From_KO": "KO-SCI-EXPERIMENTAL-TREATMENT-EFFECT-CI-001-001",
+    "To_KO": "KO-SCI-INSTRUMENTATION-MEASUREMENT-NOISE-CI-001-002",
+    "Relationship_Description": "Empirical dynamics modeled in KO-SCI-EXPERIMENTAL-TREATMENT-EFFECT-CI-001-001 directly constrain operational parameters, thereby governing downstream functional response and feedback behavior in KO-SCI-INSTRUMENTATION-MEASUREMENT-NOISE-CI-001-002.",
+    "Relationship_Type": "Causal",
+    "Confidence": 0.73,
+    "Human_Approval": "Pending Review",
+    "Cluster_ID": "CLUSTER_EXPERIMENTAL_VARIANCE",
+    "Status": "CANDIDATE",
+    "Notes": "Dialectical edge synthesized under transaction TX-BENCHMARK-SCI-001 across domain 'scientific_research'.",
+    "Transaction_ID": "TX-BENCHMARK-SCI-001"
+  }
+]

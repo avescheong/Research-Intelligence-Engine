@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ConceptualKOBatch",
+  "description": "Schema for candidate Knowledge Objects and Relationships emitted by conceptual_ko_engine.py into semantic_validation_engine.py",
+  "type": "object",
+  "required": ["knowledge_objects", "relationships"],
+  "properties": {
+    "knowledge_objects": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "required": [
+          "KO_ID",
+          "Concept_Title",
+          "Domain",
+          "Origin_Source",
+          "Supporting_EO",
+          "Supporting_IO",
+          "Confidence",
+          "Status",
+          "Human_Approval_State",
+          "Canonical_Status",
+          "Transaction_ID"
+        ],
+        "properties": {
+          "KO_ID": { "type": "string", "pattern": "^KO-[A-Za-z0-9_-]+$" },
+          "Concept_Title": { "type": "string", "minLength": 10 },
+          "Domain": { "type": "string" },
+          "Origin_Source": { "type": "string" },
+          "Supporting_EO": { "type": "string" },
+          "Supporting_IO": { "type": "string" },
+          "Confidence": { "type": "number", "maximum": 0.92 },
+          "Status": { "type": "string", "enum": ["CANDIDATE", "CANDIDATE_UNDER_TENSION", "CANDIDATE_UNRESOLVED_CONFLICT"] },
+          "Human_Approval_State": { "type": "string", "enum": ["PENDING_LEVEL_5_REVIEW"] },
+          "Canonical_Status": { "type": "string", "enum": ["NOT_APPROVED"] },
+          "Transaction_ID": { "type": "string" }
+        }
+      }
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "Relationship_ID",
+          "From_KO",
+          "To_KO",
+          "Relationship_Description",
+          "Relationship_Type",
+          "Confidence",
+          "Status",
+          "Transaction_ID"
+        ],
+        "properties": {
+          "Relationship_ID": { "type": "string", "pattern": "^REL-[A-Za-z0-9_-]+$" },
+          "From_KO": { "type": "string" },
+          "To_KO": { "type": "string" },
+          "Relationship_Description": { "type": "string", "minLength": 25 },
+          "Relationship_Type": { "type": "string" },
+          "Confidence": { "type": "number", "maximum": 0.92 },
+          "Status": { "type": "string", "enum": ["CANDIDATE"] },
+          "Transaction_ID": { "type": "string" }
+        }
+      }
+    }
+  }
+}

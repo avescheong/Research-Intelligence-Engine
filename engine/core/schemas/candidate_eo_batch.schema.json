@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CandidateEOBatch",
+  "description": "Schema for candidate Evidence Objects emitted by semantic_eo_engine.py into dialectical_io_engine.py",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "EO_ID",
+      "Origin_Source",
+      "Direct_Observation",
+      "Context_Anchor",
+      "Start_Sec",
+      "End_Sec",
+      "Duration_Sec",
+      "Word_Count",
+      "Speech_Rate_WPM",
+      "Span_SHA256",
+      "Linked_IO",
+      "Confidence",
+      "Status",
+      "Human_Approval_State",
+      "Canonical_Status",
+      "Transaction_ID"
+    ],
+    "properties": {
+      "EO_ID": { "type": "string", "pattern": "^EO-[A-Za-z0-9_-]+$" },
+      "Origin_Source": { "type": "string", "pattern": "^SRC-[A-Za-z0-9_-]+$" },
+      "Direct_Observation": { "type": "string", "minLength": 15 },
+      "Context_Anchor": { "type": "string" },
+      "Start_Sec": { "type": "number", "minimum": 0 },
+      "End_Sec": { "type": "number", "minimum": 0 },
+      "Duration_Sec": { "type": "number", "minimum": 15, "maximum": 180 },
+      "Word_Count": { "type": "integer", "minimum": 15, "maximum": 180 },
+      "Speech_Rate_WPM": { "type": "number", "minimum": 80, "maximum": 240 },
+      "Span_SHA256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+      "Linked_IO": { "type": "string" },
+      "Confidence": { "type": "number", "maximum": 0.85 },
+      "Status": { "type": "string", "enum": ["CANDIDATE"] },
+      "Human_Approval_State": { "type": "string", "enum": ["PENDING_LEVEL_5_REVIEW"] },
+      "Canonical_Status": { "type": "string", "enum": ["NOT_APPROVED"] },
+      "Transaction_ID": { "type": "string" }
+    }
+  }
+}
